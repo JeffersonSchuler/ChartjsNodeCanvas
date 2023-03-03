@@ -35,15 +35,10 @@
 
     /* Source Map Options */
     "inlineSourceMap": false,
-    "inlineSources": false,
-
-    /* Experimental Options */
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "pretty": true
+    "inlineSources": false
   },
   "include": [
-    "./src/**/*"
+    "./src/*"
   ],
   "buildOptions": {
     "verbose": true
